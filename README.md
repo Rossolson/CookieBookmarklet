@@ -14,7 +14,7 @@ javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Te
 
 ## Quick Installation
 
-Drag this link => [CookieFactory](javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);) <= to your Bookmarks Bar.
+[CookieFactory](javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);)
 
 ## Activation
 
