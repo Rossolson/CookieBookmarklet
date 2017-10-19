@@ -2,7 +2,7 @@
 
 This [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) will create a web cookie from your Bookmarks Bar.
 
-## Installation
+## Manual Installation
 
 1) Create a bookmark on your Bookmark Bar/Favorites Bar of any page.
 2) Rename the bookmark to ‘CookieFactory’ or something else you like.
@@ -11,6 +11,10 @@ This [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) will create a web 
 ```
 javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);
 ```
+
+## Quick Installation
+
+Drag this link => [CookieFactory](javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);) <= to your Bookmarks Bar.
 
 ## Activation
 
