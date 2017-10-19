@@ -1,7 +1,6 @@
 # CookieBookmarklet
-Create a Cookie from your Bookmarks Bar
 
-javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);
+This [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) will create a web cookie from your Bookmarks Bar.
 
 ## Installation
 
@@ -9,7 +8,9 @@ javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Te
 2) Rename the bookmark to ‘CookieFactory’ or something else you like.
 3) Edit the address of the bookmark and paste the following code:
 
-`javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);`
+```javascript
+javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);
+```
 
 ## Activation
 
