@@ -12,10 +12,6 @@ This [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) will create a web 
 javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);
 ```
 
-## Quick Installation
-
-[CookieFactory](javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);)
-
 ## Activation
 
 When you click on the Bookmark, it will ask you 4 sequential questions: Name, Value, Path and Expiration Date.
