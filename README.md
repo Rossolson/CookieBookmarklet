@@ -8,7 +8,7 @@ This [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) will create a web 
 2) Rename the bookmark to ‘CookieFactory’ or something else you like.
 3) Edit the address of the bookmark and paste the following code:
 
-```javascript
+```
 javascript:n=(prompt("Name","Example%20Cookie")+"=");v=escape(prompt("Value","Test%20Value"));p=(";%20path="+prompt("Path","/"));e=prompt("Expires?%20Blank%20for%20never",new%20Date().toUTCString());document.cookie=n+v+p+(e===""?"":";%20expires="+e);
 ```
 
